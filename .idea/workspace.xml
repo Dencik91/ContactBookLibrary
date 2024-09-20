@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2c0378b-e476-4f92-b7bc-c49c2686345f" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bookmanagement/ContactBookManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ContactBookManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bookmanagement/ContactBookManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/libs/ContactBookManageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/bookmanagement/ContactBookManagerImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
       <list>
         <option value="Python Script" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,11 +42,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "TestNG.ContactBookManageTest.executor": "Run",
+    "TestNG.ContactBookManagerImplTest.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.ContactBookManagerImplTest">
     <configuration name="ContactBookManageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ContactBookLibrary" />
       <extension name="coverage">
@@ -59,8 +65,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContactBookManagerImplTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ContactBookLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.bookmanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.bookmanagement" />
+      <option name="MAIN_CLASS_NAME" value="org.bookmanagement.ContactBookManagerImplTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactBookManagerImplTest" />
         <item itemvalue="TestNG.ContactBookManageTest" />
       </list>
     </recent_temporary>
@@ -82,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726764864787</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1726772786997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726772786997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
