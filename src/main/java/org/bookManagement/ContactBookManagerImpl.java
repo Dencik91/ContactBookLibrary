@@ -15,11 +15,11 @@ public class ContactBookManagerImpl implements ContactBookManager {
     private Logger logger;
 
     public ContactBookManagerImpl(Logger logger) {
-        this.logger = logger; // Injectează logger-ul
+        this.logger = logger; // Inject logger
     }
 
     public ContactBookManagerImpl() {
-        this(LoggerFactory.getLogger(ContactBookManagerImpl.class)); // Folosește logger-ul default
+        this(LoggerFactory.getLogger(ContactBookManagerImpl.class)); // use default logger
     }
 
     public boolean isNameValid(String name) {
