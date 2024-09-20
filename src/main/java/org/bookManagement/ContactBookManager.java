@@ -1,4 +1,4 @@
-package org.bookmanagement;
+package org.bookManagement;
 
 public interface ContactBookManager {
     void addContact(String name, String number);

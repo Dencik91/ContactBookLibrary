@@ -1,4 +1,4 @@
-package org.bookmanagement;
+package org.bookManagement;
 
 import org.mockito.InjectMocks;
 import org.mockito.Mock;

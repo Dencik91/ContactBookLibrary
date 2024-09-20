@@ -1,4 +1,4 @@
-package org.bookmanagement;
+package org.bookManagement;
 
 import lombok.Getter;
 import lombok.Setter;
